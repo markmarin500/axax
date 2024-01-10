@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 
-const backendURL = 'https://www.hb-studios.com';
+const backendURL = 'https://www.battlegoat.com/';
 
 function pingBackend() {
   axios.get(backendURL)
