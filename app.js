@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 
-const backendURL = 'https://cex.io/';
+//const backendURL = 'https://cex.io/';
 
 function pingBackend() {
   axios.get(backendURL)
